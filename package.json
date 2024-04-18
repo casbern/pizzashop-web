@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "lint": "pnpm eslint src --ext .tsx,.ts",
+    "lint:fix": "pnpm eslint src --ext .tsx,.ts --fix",
     "preview": "vite preview"
   },
   "dependencies": {
