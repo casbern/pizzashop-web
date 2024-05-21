@@ -31,7 +31,6 @@ export function OrderDetails({ orderId, open }: OrderDetailsProps) {
     queryFn: () => getOrderDetails({ orderId }),
     enabled: open,
   })
-  console.log('order', order)
 
   return (
     <DialogContent>
